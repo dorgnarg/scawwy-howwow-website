@@ -1,0 +1,103 @@
+$navbar-height: 2.75rem;
+@import "bulma/bulma.sass";
+
+@media (min-width: 1024px) {
+    .navbar-item-main:hover {
+        background-color: hsl(0,0%,15%) !important;
+    }
+}
+
+.has-bg-img {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 75vh;
+}
+
+@media (min-width: 2001px) {
+    .has-bg-img {
+        background-image: 
+            url('/banner.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+@media (max-width: 2000px) {
+    .has-bg-img {
+        background-image: 
+            url('/banner-2000px.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+@media (max-width: $widescreen - 1) {
+    .has-bg-img {
+        background-image: 
+            url('/banner-1215px.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+@media (max-width: $desktop - 1) {
+    .has-bg-img {
+        background-image: 
+            url('/banner-1023px.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+@media (max-width: $tablet - 1) {
+    .has-bg-img {
+        background-image: 
+            url('/banner-800px.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+@media (max-width: 480px) {
+    .has-bg-img {
+        background-image: 
+            url('/banner-480px.jpg'),
+            linear-gradient(to bottom, #f3a5bd, #f3a4bd, #f3a4bd, #f3a4bd, black, black, black, black);
+        }
+}
+
+.spooky {
+    background-image: url('/profile.jpg');
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-color: black;
+    align-self: center;
+    justify-self: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin: 0 0.5rem;
+}
+
+.index-container {
+    padding: $section-padding;
+}
+
+.hero-foot {
+    border-radius: 40px 40px 0 0;
+    margin-top: 65vh;
+    background-color: white;
+}
+
+.navbar-menu {
+    transition: all 2s;
+    animation: navAnimOpen .2s ease-in-out;
+}
+
+@keyframes navAnimOpen {
+    0% {display: none; opacity: 0; max-height: 0;}
+    1% {display: block; opacity: 0;}
+    100% {opacity: 1; max-height: 10rem;}
+}
+
+.navbar-icon {
+    padding-right: 0.25rem;
+}

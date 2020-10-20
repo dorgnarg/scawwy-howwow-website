@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" class="has-fixed-navbar-top">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="index-main">
+
+<section class="hero has-bg-img is-fullheight is-light">
+    {{- partial "index-header.html" . -}}
+
+    <div class="hero-body">
+    </div>
+
+    <div class="hero-foot">
+        <div class="container index-container">
+        <div class="content index-content is-large">
+                {{ .Content }}
+        </div>
+        </div>
+    </div>
+</section>
+</main>
+{{ end }}

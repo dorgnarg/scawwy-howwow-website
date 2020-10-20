@@ -1,0 +1,30 @@
+<div class="column">
+    <div class="card">
+        <div class="card-image">
+            <picture>
+                <source media="(min-width: 1400px)" 
+                        srcset="{{ .Get "src" }}-768px.webp" type="image/webp">
+                <source media="(min-width: 1400px)" 
+                        srcset="{{ .Get "src" }}-768px.jpg" type="image/jpeg">
+                <source media="(max-width: 480px)" 
+                        srcset="{{ .Get "src" }}-480px.webp" type="image/webp">
+                <source media="(max-width: 480px)" 
+                        srcset="{{ .Get "src" }}-480px.jpg" type="image/jpeg">
+                <source media="(max-width: 375px)" 
+                        srcset="{{ .Get "src" }}-375px.webp" type="image/webp">
+                <source media="(max-width: 375px)" 
+                        srcset="{{ .Get "src" }}-375px.jpg" type="image/jpeg">
+                <source media="(max-width: 375px)" 
+                        srcset="{{ .Get "src" }}-375px.webp" type="image/webp">
+                <source media="(max-width: 375px)" 
+                        srcset="{{ .Get "src" }}-375px.jpg" type="image/jpeg">
+                <img loading="lazy" src="{{ .Get "src"}}-768px.jpg"
+                                    alt="{{ .Get "name" }}, {{ .Get "title" }}">
+            </picture>
+        </div>
+        <div class="card-content">
+            <p class="title">{{ .Get "name" }}</p>
+            <p class="subtitle">{{ .Get "title" }}</p>
+        </div>
+    </div>
+</div>
