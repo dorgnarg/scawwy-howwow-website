@@ -9,5 +9,6 @@
     </div>
 </section>
 </main>
-
+{{ $turnpage := resources.Get "/js/turnpage.js" }}
+<script src="{{$turnpage.Permalink}}"></script>
 {{ end }}

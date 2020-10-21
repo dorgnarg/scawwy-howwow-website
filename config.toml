@@ -1,9 +1,17 @@
-baseURL = "https://scawwy-howwow.netlify.app/"
+baseURL = "http://scawwyhowwowtheatre.com/"
 languageCode = "en-us"
 title = "Scawwy Howwow Theatre"
 theme = "scawwy-howwow"
 [params]
     description = ""
+
+[deployment]
+
+[[deployment.targets]]
+name="s3"
+URL="s3://scawwyhowwowtheatre.com?region=us-east-1"
+
+[menus]
 
 [[menu.main]]
     name = "Home"

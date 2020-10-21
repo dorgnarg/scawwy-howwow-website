@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Scawwy Howwow Theatre</title>
-    <link>https://scawwy-howwow.netlify.app/</link>
+    <link>http://scawwyhowwowtheatre.com/</link>
     <description>Recent content in Home on Scawwy Howwow Theatre</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Oct 2020 01:06:20 -0700</lastBuildDate><atom:link href="https://scawwy-howwow.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 01:06:20 -0700</lastBuildDate><atom:link href="http://scawwyhowwowtheatre.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tales From the Visa Line</title>
+      <link>http://scawwyhowwowtheatre.com/tales-from-the-visa-line/</link>
+      <pubDate>Wed, 21 Oct 2020 13:02:17 -0700</pubDate>
+      
+      <guid>http://scawwyhowwowtheatre.com/tales-from-the-visa-line/</guid>
+      <description>Tales From the Visa Line                                                              </description>
+    </item>
+    
     <item>
       <title>About</title>
-      <link>https://scawwy-howwow.netlify.app/about/</link>
+      <link>http://scawwyhowwowtheatre.com/about/</link>
       <pubDate>Sat, 17 Oct 2020 01:52:19 -0700</pubDate>
       
-      <guid>https://scawwy-howwow.netlify.app/about/</guid>
+      <guid>http://scawwyhowwowtheatre.com/about/</guid>
       <description>About Scawwy Howwow Inspired by the theatre manifesto of Antonin Artaud, Scawwy Howwow Theatre aims to push the limits of theatre, media, and horror. From new formats to new mediums to new voices, we aim to bring a whole new experience to the world. For inquiries, reach us at scawwyhowwowtheatre@gmail.com.
 The Team    Nicholas Tran
 Executive Director
@@ -23,10 +32,10 @@ Creative Director
     
     <item>
       <title>Projects</title>
-      <link>https://scawwy-howwow.netlify.app/projects/</link>
+      <link>http://scawwyhowwowtheatre.com/projects/</link>
       <pubDate>Sat, 17 Oct 2020 01:52:19 -0700</pubDate>
       
-      <guid>https://scawwy-howwow.netlify.app/projects/</guid>
+      <guid>http://scawwyhowwowtheatre.com/projects/</guid>
       <description>Projects    Tales from the Visa Line
 An online charity theatre festival benefiting the International Refugee Assistance Project
        untitled [redacted]
