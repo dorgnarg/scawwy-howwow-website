@@ -23,7 +23,7 @@ What have we done?
     src="/tales" 
     name="Tales from the Visa Line"
     title="An online charity theatre festival benefiting the International Refugee Assistance Project"
-    href="https://www.facebook.com/events/1026978557772302/">}}
+    href="/tales-from-the-visa-line">}}
 </div>
 
 <div class="column">

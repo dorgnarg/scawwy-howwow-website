@@ -1,0 +1,22 @@
+if (window.matchMedia("(max-width: 840px)").matches) {
+  $("#flipbook").turn({
+    width: 420,
+    height: 649,
+    autoCenter: true,
+    display: "single"
+  });
+
+} else if (window.matchMedia("(max-width: 420px)").matches) {
+  $("#flipbook").turn({
+    width: 210,
+    height: 325,
+    autoCenter: true,
+    display: "single"
+  });
+} else {
+  $("#flipbook").turn({
+    width: 840,
+    height: 650,
+    autoCenter: true,
+  });
+}
