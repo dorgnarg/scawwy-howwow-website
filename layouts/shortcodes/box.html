@@ -1,0 +1,18 @@
+<div class="box">
+    <article class="media">
+        <div class="media-left">
+            <iframe 
+                src="https://anchor.fm/scawwyhowwowtheatre/embed/episodes/{{ .Get "url" }}" 
+                height="102px" 
+                width="400px" 
+                frameborder="0" 
+                scrolling="no">
+            </iframe>
+        </div>
+        <div class="media-content">
+            <div class="content">
+                {{ .Inner }}
+            </div>
+        </div>
+    </article>
+</div>

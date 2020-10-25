@@ -166,10 +166,6 @@ $navbar-height: 2.75rem;
         -ms-box-shadow: inset 0 0 5px #666;
         box-shadow: inset 0 0 5px #666;
     }
-
-    #temp {
-        display: block;
-    }
 }
 
 @media (max-width: 840px) {
@@ -202,5 +198,31 @@ $navbar-height: 2.75rem;
             height: 541px;
             background-color: white;
         }
+    }
+}
+
+.script-iframe {
+    width: 100%;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.bkg-image {
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.pod-iframe {
+    height: 102px;
+    width: 400px;
+    @media (max-width: 425px) {
+        width: 100%;
     }
 }

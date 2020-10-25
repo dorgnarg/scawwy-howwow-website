@@ -1,0 +1,5 @@
+<a onclick="revealHidden(this,{{ .Get "id" }})">Details</a>
+
+<div class="hidden-content" id="{{ .Get "id" }}">
+   {{ .Inner }}
+</div>

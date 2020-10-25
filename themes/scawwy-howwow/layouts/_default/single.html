@@ -1,9 +1,27 @@
 {{ define "main" }}
 {{- partial "header.html" . -}}
+
+{{ $bkg := "" }}
+
+{{ if .Params.image }}
+{{ if gt (len .Params.image) 0 }}
+{{ $bkgImage := print (index .Params.image 0) }}
+{{ $bkgURL := printf "%s%s" $.Site.BaseURL $bkgImage }}
+{{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
+{{ end }}
+  <section 
+    class="hero is-large bkg-image"
+    style={{ safeCSS $bkg }}
+    id="hero">
+    <div class="hero-body">
+    </div>
+  </section>
+{{ end }}
+
 <main>
 <section class="section">
     <div class="container">
-        <div class="content is-medium">
+        <div class="content is-large">
             {{ .Content }}
         </div>
     </div>

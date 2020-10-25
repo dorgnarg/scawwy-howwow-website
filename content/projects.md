@@ -14,7 +14,7 @@ draft: false
     src="/tales" 
     name="Tales from the Visa Line"
     title="An online charity theatre festival benefiting the International Refugee Assistance Project"
-    href="https://www.facebook.com/events/1026978557772302/">}}
+    href="/tales-from-the-visa-line">}}
 
 </div>
 
@@ -24,7 +24,7 @@ draft: false
     src="/untitled" 
     name="untitled [redacted]" 
     title="A surreal horror audio drama/podcast" 
-    href="https://anchor.fm/scawwyhowwowtheatre">}}
+    href="/untitled-redacted">}}
 
 </div>
 
