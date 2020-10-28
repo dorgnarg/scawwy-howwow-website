@@ -22,15 +22,48 @@ Simmonds](https://www.instagram.com/e.claire.s/).
         transcript="/untitled-redacted/episode-1"
         >}}
         <div class="column">
-            Performed by:<br />
+            <b>Performed by</b><br />
             Chae Young Moon (Karen)<br />
             Kenny Yang (Keith)<br />
             Eric Cheng (Disembodied Voice)
         </div>
         <div class="column">
-            Content warnings:<br />
+            <b>Content warnings</b><br />
             Blood<br />
             Drug use
+        </div>
+    {{< /podBox >}}
+    {{< podBox 
+        url="1-2-redacted-elmaus/a-a3m4p43"
+        episode="1.2 [̶r̶e̶d̶a̶c̶t̶e̶d̶]̶"
+        desc="Letters from a daughter, to a mother."
+        id="episode-2"
+        transcript="/untitled-redacted/episode-2"
+        >}}
+        <div class="column">
+        <p class="block">
+            <b>Performed by</b><br />
+            Shelby Cox (Joanne)<br />
+            Eric Cheng (Disembodied Voice)
+        </p>
+        </div>
+        <div class="column">
+        <p class="block">
+            <b>Content warnings</b><br />
+            Child death<br />
+            Psychosis<br />
+            Pregnancy related illness
+        </p>
+        </div>
+        </div>
+        <div class="columns">
+        <div class="column is-multiline is-full">
+        <p class="block">
+            <b>Music</b><br />
+            "Aqua 1" by Walter Gatti<br />
+            "...Before a Droplet Hits the Water" by Xavier Shuang Xu<br />
+            Performed by Maryl Harris
+        </p>
         </div>
     {{< /podBox >}}
 </div>

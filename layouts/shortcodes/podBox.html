@@ -1,18 +1,27 @@
 <div class="box">
     <article class="media">
-        <div class="media-left is-hidden-mobile">
+        <div class="media-left is-hidden-mobile is-align-self-center"
+                id="iframe-{{ .Get "id"}}">
             <iframe 
                 class="pod-iframe"
                 src="https://anchor.fm/scawwyhowwowtheatre/embed/episodes/{{ .Get "url" }}" 
                 frameborder="0" 
-                scrolling="no">
+                scrolling="no"
+                title="{{ .Get "id" }}">
             </iframe>
         </div>
         <div class="media-content">
             <div class="content">
-                <h1 class="title is-4">{{ .Get "episode" }}
+            <div class="columns is-variable is-1">
+                <div class="column is-narrow">
+                    <h1 class="title is-4">{{ .Get "episode" }}</h1>
+                </div>
+                <div class="column">
+                    <h1 class="subtitle is-4">
                     <span class="m-1 has-text-primary is-italic has-text-weight-light">{{ .Get "desc" }}</span>
-                </h1>
+                    </h1>
+                </div>
+            </div>
                 <p>
                 <span class="is-hidden-tablet">
                 <a href="https://anchor.fm/scawwyhowwowtheatre/episodes/{{ .Get "url" }}">Listen</a>

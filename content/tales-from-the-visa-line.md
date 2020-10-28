@@ -52,4 +52,6 @@ draft: false
     <div> <img src="/tales-playbill/42.jpg"> </div>
     <div> <img src="/tales-playbill/43.jpg"> </div>
     <div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.turnjs.com/lib/turn.min.js"></script>
 {{< /flipbook >}}
