@@ -2,9 +2,31 @@
 title: "Tales From the Visa Line"
 date: 2020-10-21T13:02:17-07:00
 draft: false
+image: ["tales.jpg"]
 ---
 
-# Tales From the Visa Line
+# Tales from the Visa Line
+Partnering up with the International Refugee Assistance Project, **Tales from the
+Visa Line** is an online theatre festival looking to tell immigrant stories from
+immigrant writers.
+
+The 2020 festival raised over $2000 for the charity, with the
+hard work of over 40 artists worldwide.
+
+{{< block class="youtube" >}}
+
+{{< iframe
+    src="https://www.youtube.com/embed/videoseries?list=PLgh9okRcE9X3RaRAkEaetZ1OhWVHyfHHC"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; pictire-in-picture"
+    style="position: absolute;"
+>}}
+
+{{< /block >}}
+
+## Playbill
+
+{{< block >}}
 {{< flipbook class="columns is-centered" >}}
 <div id="flipbook" class="tales-playbill">
     <div> <img src="/tales-playbill/01.jpg"> </div>
@@ -55,3 +77,4 @@ draft: false
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://www.turnjs.com/lib/turn.min.js"></script>
 {{< /flipbook >}}
+{{< /block >}}

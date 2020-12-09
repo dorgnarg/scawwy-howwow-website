@@ -1,5 +1,11 @@
 <iframe src="{{ .Get "src" }}"
     class="{{ .Get "class"}}"
-    title="{{ .Get "title" }}">
+    title="{{ .Get "title" }}"
+    width="{{ .Get "width"}}"
+    height="{{ .Get "height"}}"
+    allow="{{ .Get "allow" }}"
+    frameborder = "{{ .Get "frameborder" }}"
+    style="{{ .Get "style" }}"
+    allowfullscreen>
     <a href="{{ .Get "src" }}">Click here to view in another window</a>
 </iframe>
